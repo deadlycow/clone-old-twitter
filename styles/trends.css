@@ -1,0 +1,121 @@
+.trends {
+  padding: 8px 20px;
+  background-color: white;
+  width: 350px;
+  grid-column: 3/4;
+  grid-row: 1/3;
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 96vh;
+}
+.trends-search {
+  display: flex;
+  position: relative;
+}
+.trends-search-box {
+  background-color: #E6ECF1;
+  font-size: 14px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 18px;  
+  flex: 1;
+}
+.trends-search-img {
+  width: 17px;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+}
+.trends-container {
+  background-color: #F5F9FA;
+  margin-top: 10px;
+  border: none;
+  border-radius: 9px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.trends-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trends-header-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+.trends-header-img {
+  width: 20px;
+}
+
+.trends-container-content {
+  border-top: 1px solid rgba(211, 211, 211, 0.61);
+  margin-top: 5px;
+  padding-top: 10px;
+}
+.trends-container-where {
+  font-size: 14px;
+  color: #b4b4b4;
+}
+.trends-container-headline {
+  font-size: 16px;
+  font-weight: 700;
+}
+.trends-container-preview {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 7px;
+}
+.trends-container-preview-info {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+  padding: 10px 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+}
+.trends-container-preview-info-catagory {
+  font-size: 14px;
+  color: #b4b4b4;
+}
+.trends-container-preview-info-text {
+  font-weight: 700;
+}
+.trends-container-preview-img {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.trends-container-preview-info-img {
+  width: 50px;
+}
+.trends-container-content-tweeting {
+  font-size: 12px;
+  color: #b4b4b4;
+  margin-top: 5px;
+}
+
+.trends-showmore {
+  padding-top: 5px;
+}
+.trends-showmore a {
+  text-decoration: none;
+  color: blue;
+}
+
+
+
+
+/* 
+gray-search #E6ECF1
+trends-backgroud #F5F9FA
+*/
